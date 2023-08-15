@@ -28,8 +28,17 @@ body{
 }
 
 .container{
-    padding-right: 6%;
-    padding-left: 6%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
 }
 
 .boton{
