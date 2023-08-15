@@ -1,0 +1,60 @@
+.head{
+    width: 100%;
+
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    padding:.5rem;
+
+    border-bottom: 1px solid #4F4C4C;
+    
+    position: fixed;
+    background-color: #ffffff;
+    z-index:1000;
+   
+
+
+}
+
+.head__navegation{
+    text-align: center;
+    justify-content: space-around;
+}
+
+.head__logo{
+    width: 150px;
+    margin:.5rem ;
+  
+}
+
+.head__search{
+    
+}
+
+.head__search input[type="text"] {
+    /* Ocultar el campo de entrada en pantallas más pequeñas */
+    display: block; /* Asegura que el campo de entrada tenga un diseño de bloque */
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+.search-button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    background-image: url("/geek/img/icono-lupa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boton__login{
+    text-align: center;
+    align-items: center;
+}
