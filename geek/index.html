@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
@@ -31,7 +32,7 @@
     </header>
     <main>
         <!--Banner-->
-        <section class="banner container">
+        <section id="inicio" class="banner container">
             <div class="banner__imagen"></div>
             <h1 class="banner__tittle">Agosto Promocional</h1>
             <p class="banner__description">Productos seleccionados con el 33% de descuento</p>
@@ -230,12 +231,27 @@
             </div>
 
         </section>
-        <section class="contact">
-
-        </section>
-        <footer class="footer">
-
-        </footer>
+        <!--contact-->
+        <contact class="contact container">
+            <img src="img/Logo.png" alt="Logo" class="contact__logo">
+            <nav>
+                <ul class="contact__navegation">
+                    <li class="contact__enlace"><a href="#inicio">Quiénes somos</a></li>
+                    <li class="contact__enlace"><a href="#inicio">Política de privacidad</a></li>
+                    <li class="contact__enlace"><a href="#inicio">Programa de fidelidad</a></li>
+                    <li class="contact__enlace"><a href="#inicio">Nuestras tiendas</a></li>
+                    <li class="contact__enlace"><a href="#inicio">Quiero se franquiciado</a></li>
+                    <li class="contact__enlace"><a href="#inicio">Anúncie aquí</a></li>
+                </ul>
+            </nav>
+            <form action="#">
+                <h3 class="title__form">Hable con nosotros</h3>
+                <input type="text" class="contact__nombre" placeholder="Nombre completo">
+                <textarea class="contact__mensaje" name="" id="" cols="60" rows="3"
+                    placeholder="Escribe tu mensaje"></textarea>
+                <input type="submit" value="Enviar mensaje" class="contact__boton">
+            </form>
+        </contact>
     </main>
 </body>
 
