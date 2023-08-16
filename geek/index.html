@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,16 +11,18 @@
     <link rel="stylesheet" href="css/bases.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/products.css">
 </head>
+
 <body>
     <header class="head container">
-            <div> 
-                <a href="#inicio"><img src="img/Logo.png" alt="Logo de alurageek" class="head__logo"></a>
-            </div>
-            <div class="boton_login boton">
-                <botton> Login </botton> 
-            </div>
-            <nav class="head__navegation">
+        <div>
+            <a href="#inicio"><img src="img/Logo.png" alt="Logo de alurageek" class="head__logo"></a>
+        </div>
+        <div class="boton_login boton">
+            <botton> Login </botton>
+        </div>
+        <nav class="head__navegation">
             <form action="/buscar" method="GET" class="head__search">
                 <input type="text" name="search" placeholder="¿Qué deseas buscar?" size="15" maxlength="10">
                 <button type="submit" class="search-button"></button>
@@ -27,18 +30,215 @@
         </nav>
     </header>
     <main>
-           <!--Banner-->
+        <!--Banner-->
         <section class="banner container">
             <div class="banner__imagen"></div>
             <h1 class="banner__tittle">Agosto Promocional</h1>
             <p class="banner__description">Productos seleccionados con el 33% de descuento</p>
             <button class="boton__banner">Ver consolas</button>
         </section>
-        <section class="productos container">
-            
+        <!--Products-->
+        <section class="products container">
+            <div class="product__section">
+                <!--starwars-->
+                <h2 class="products__title">Star Wars</h2>
+                <a href="#">
+                    <button class="boton__producto"> Ver todo </button>
+                </a>
+            </div>
+            <div class="product__contenedor">
+                <div class="product__item">
+                    <img src="/geek/img/img-starwars.png" alt="Producto XYZ" class="product__image">
+
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-starwars-a.jpg" alt="Producto XYZ" class="product__image">
+
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-starwars-b.jpg" alt="Producto XYZ" class="product__image">
+
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-starwars-c.jpg" alt="Producto XYZ" class="product__image">
+
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-starwars-d.jpg" alt="Producto XYZ" class="product__image">
+                    <div class="product__description">
+                        <h3 class="product__name">Producto XYZ</h3>
+                        <p class="product__price">$60.00</p>
+                        <a href="#">
+                            <button class="boton__producto"> Ver todo </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-starwars-e.jpg" alt="Producto XYZ" class="product__image">
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+            </div>
+            <!--consolas-->
+            <div class="product__section">
+                <h2 class="products__title">Consolas</h2>
+                <a href="#">
+                    <button class="boton__producto"> Ver todo </button>
+                </a>
+            </div>
+            <div class="product__contenedor">
+                <div class="product__item">
+                    <img src="/geek/img/img-consola-a.jpg" alt="Producto XYZ" class="product__image">
+
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-consola-b.jpg" alt="Producto XYZ" class="product__image">
+
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-consola-c.jpg" alt="Producto XYZ" class="product__image">
+
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-consola-d.jpg" alt="Producto XYZ" class="product__image">
+
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-consola-e.jpg" alt="Producto XYZ" class="product__image">
+                    <div class="product__description">
+                        <h3 class="product__name">Producto XYZ</h3>
+                        <p class="product__price">$60.00</p>
+                        <a href="#">
+                            <button class="boton__producto"> Ver todo </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-consola-f.jpg" alt="Producto XYZ" class="product__image">
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+            </div>
+            <!--diversos-->
+            <div class="product__section">
+                <h2 class="products__title">Diversos</h2>
+                <a href="#">
+                    <button class="boton__producto"> Ver todo </button>
+                </a>
+            </div>
+            <div class="product__contenedor">
+                <div class="product__item">
+                    <img src="/geek/img/img-diversos-a.jpg" alt="Producto XYZ" class="product__image">
+
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-diversos-b.jpg" alt="Producto XYZ" class="product__image">
+
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-diversos-c.jpg" alt="Producto XYZ" class="product__image">
+
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-diversos-d.jpg" alt="Producto XYZ" class="product__image">
+
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-diversos-e.jpg" alt="Producto XYZ" class="product__image">
+                    <div class="product__description">
+                        <h3 class="product__name">Producto XYZ</h3>
+                        <p class="product__price">$60.00</p>
+                        <a href="#">
+                            <button class="boton__producto"> Ver todo </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <img src="/geek/img/img-diversos-f.jpg" alt="Producto XYZ" class="product__image">
+                    <h3 class="product__name">Producto XYZ</h3>
+                    <p class="product__price">$60.00</p>
+                    <a href="#">
+                        <button class="boton__producto"> Ver todo </button>
+                    </a>
+                </div>
+            </div>
+
         </section>
+        <section class="contact">
+
+        </section>
+        <footer class="footer">
+
+        </footer>
     </main>
 </body>
+
 </html>
 
 <!--videojuego icon by Icons8 -->
