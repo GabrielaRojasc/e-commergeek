@@ -1,0 +1,11 @@
+.footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.footer__text{
+    text-align: center;
+    color: rgb(41, 40, 40);
+}
+
