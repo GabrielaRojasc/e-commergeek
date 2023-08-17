@@ -8,7 +8,7 @@
 }
 
 .banner__imagen{
-    background-image: url(/geek/img/banner__image.jpg);
+    background-image: url(../img/banner__image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:100%;

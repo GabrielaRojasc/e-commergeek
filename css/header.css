@@ -31,6 +31,7 @@
   
 }
 
+
 .head__search input[type="text"] {
     /* Ocultar el campo de entrada en pantallas más pequeñas */
     display: block; /* Asegura que el campo de entrada tenga un diseño de bloque */
@@ -45,12 +46,31 @@
     cursor: pointer;
     width: 25px;
     height: 25px;
-    background-image: url("/geek/img/icono-lupa.png");
+    background-image: url("../img/icono-lupa.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.boton__login{
-    text-align: center;
+.boton_login {
+    padding: 1rem 2rem;
+    border: 1px solid var(--boton-violeta); 
+    width: 3.5rem;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
+
+.boton_login a {
+    text-decoration: none;
+}
+
+.boton_login button {
+    background: none;
+    border: none;
+    color: #662f8d; 
+}
+
+.boton_login button:hover {
+    color: #6300a3; 
+}
+
