@@ -59,3 +59,7 @@ input[type="submit"] {
 .contact__mensaje::placeholder {
     color: #999; /* Color de texto para el marcador de posición */
 }
+
+.contact__enlace a{
+    color: #662f8d;
+}
