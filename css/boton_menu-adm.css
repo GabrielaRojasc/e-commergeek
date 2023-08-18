@@ -1,0 +1,23 @@
+.boton_menu-adm {
+    padding: 1rem 2rem;
+    border: 1px solid var(--boton-violeta); 
+    width: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.boton_menu-adm a {
+    text-decoration: none;
+}
+
+.boton_menu-adm button {
+    background: none;
+    border: none;
+    color: #662f8d; 
+}
+
+.boton_menu-adm button:hover {
+    color: #6300a3; 
+}

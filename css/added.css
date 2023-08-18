@@ -1,0 +1,45 @@
+.added{
+    background: rgb(255, 252, 252);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.added__form{
+    display: flex;
+    flex-direction: column; 
+}
+
+.added__title{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+input, textarea {
+    padding: .8rem;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+textarea {
+    resize: none;
+}
+
+.btn-added{
+    background-color: #8534dc;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.btn-added:hover {
+    background-color: #6313b9;
+  }
