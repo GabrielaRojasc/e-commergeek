@@ -56,7 +56,15 @@ button:hover {
     background-color: #6313b9;
 }
 
-
+@media screen and (min-width: 500px) {
+    .login{
+        padding-top: 15rem;
+        padding-bottom: 20.2rem;
+    }
+    .login__contenedor{
+        width: 45%;
+    }
+}
 
 
 
