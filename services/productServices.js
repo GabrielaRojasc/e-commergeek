@@ -9,28 +9,26 @@ const listProduct = () => {
         
 };
 
-
-
 //POST
 
-const createProduct = (imageUrl, name, price) => {
-    fetch("http://localhost:3000/producto",{
+const createProduct = (name, imageUrl, price) => {
+   return fetch("http://localhost:3000/producto",{
         method: "POST",
         headers: {
             "Content-type": "application/json"
         }, 
         body: JSON.stringify({
-                imageUrl,
                 name,
+                imageUrl,    
                 price
-            })    
-    }).then(respuesta => {
+            }),   
+    }).then((respuesta) => {
         if(respuesta.ok){
-            return respuesta.body
+            return respuesta.body;
         }
-    })
-    throw new error("No se pudo crear tu producto")
-}
+        throw new Error("No se pudo crear tu producto");
+    });
+};
 
 
 
