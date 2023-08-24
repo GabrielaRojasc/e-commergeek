@@ -42,24 +42,20 @@
             </div>
         </section>
         <!--Products-->
-        <section class="products container" data-product>
+        <section class="products container">
             <div class="product__section">
-                <h2 class="products__title">Productos"</h2>
-                <a href="#">
-                    <button class="boton__producto"> Ver todo </button>
-                </a>
-            </div>
-            <div class="product__contenedor">
-                <div class="product__item">
-                    <img src="https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
-                        alt="Producto XYZ" class="product__image" loading="lazy">
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a class="ver__producto" href="./product.html?id={id}" target="_blank">
-                    Ve producto</a>
+                <h2 class="products__title">Productos</h2>
+                <div class="mostrar-mas">
+                    <a href="/product.html" class="div-verTodo">
+                    Ver Todo <img class="verTodo" src="../img/Vector.png" alt="seta" />
+                    </a>
                 </div>
             </div>
-        </section>
+            <section class="product__contenedor" data-product >
+      
+            </section>
+          </section>
+        
         <!--contact-->
         <section class="contact container">
             <img src="img/Logo.png" alt="Logo" class="contact__logo">
@@ -92,10 +88,9 @@
                 </a>
             </div>
         </footer>
-
+    
     </main>
-    <script src="/services/productServices.js"></script>
-    <script src="/controllers/productController.js"></script>
+    <script type="module" src="controllers/productController.js"></script>
 </body>
 
 </html>

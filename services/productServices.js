@@ -2,11 +2,14 @@
 
 //GET
 
-const listProduct = () =>{
-    fetch("http://localhost:3000/producto")
-    .then(respuesta => respuesta.json())
-    .catch(error => console.log(error))
-}
+const listProduct = () => {
+    return fetch("http://localhost:3000/producto")
+        .then((respuesta) => respuesta.json())
+        .catch((error) => console.log(error));
+        
+};
+
+
 
 //POST
 
@@ -31,7 +34,7 @@ const createProduct = (imageUrl, name, price) => {
 
 
 
-export const productServices ={
+export const productServices = {
     listProduct,
     createProduct
 }
