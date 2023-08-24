@@ -13,8 +13,13 @@
     width: 150px;
 }
 
+.contact__navegation{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .contact__enlace{
-    padding-bottom: .5rem;
     text-align: center;
 }
 
@@ -62,4 +67,34 @@ input[type="submit"] {
 
 .contact__enlace a{
     color: #662f8d;
+}
+
+.contact__boton{
+    width: 144px;
+    height: 51px;
+    text-align: center;
+    align-items: center;
+    justify-content: c;
+
+}
+
+@media screen and (min-width: 810px) {
+    .contact{ 
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        gap: 112px;
+        padding: 64px 64px;
+        
+    }
+
+    .contact__logo{
+        width: 200px;
+
+    }
+    .contact__enlace{
+        gap:24px;
+        text-align: left;
+
+    }
 }

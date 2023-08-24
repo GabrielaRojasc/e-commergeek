@@ -12,9 +12,9 @@
 
     border-bottom: 1px solid #ce9bf1;
     
-    position: fixed;
+    position: relative;
     background-color: #dddcf1;
-    z-index:1000;
+    z-index:3;
    
 
 
@@ -28,6 +28,8 @@
 .head__logo{
     width: 150px;
     margin:.5rem ;
+
+    order: 1;
   
 }
 
@@ -35,9 +37,6 @@
 .head__search input[type="text"] {
     /* Ocultar el campo de entrada en pantallas más pequeñas */
     display: block; /* Asegura que el campo de entrada tenga un diseño de bloque */
-    @media (max-width: 767px) {
-        display: none;
-    }
 }
 
 .search-button{
@@ -49,15 +48,20 @@
     background-image: url("../img/icono-lupa.png");
     background-size: cover;
     background-repeat: no-repeat;
+
+    order:2;
 }
 
 .boton_login {
-    padding: 1rem 2rem;
+
     border: 1px solid var(--boton-violeta); 
-    width: 3.5rem;
+    width: 133px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    order: 3;
 }
 
 .boton_login a {
@@ -72,5 +76,53 @@
 
 .boton_login button:hover {
     color: #6300a3; 
+}
+
+@media (max-width: 809px) {
+    .head__search input[type="text"] {
+    display: none;}
+}
+
+@media screen and (min-width: 810px) {
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+        padding:25px 64px;
+    }
+
+    .head__logo{
+        width: 200px;
+
+        order: 1;
+    }
+
+    .head__search{
+        display: flex;
+        gap: 12px;
+        align-items: flex-start;
+
+        order: 2; 
+    }
+
+    .head__search input[type="text"] {
+        /* Estilos para el campo de entrada de búsqueda */
+        border: 1px solid #ce9bf1; /* Borde alrededor del campo */
+        border-radius: 5px; /* Bordes redondeados */
+        padding: 0.5rem; /* Espaciado interno */
+        width:300px; /* Ancho del campo de entrada */
+        font-size: 0.9rem; /* Tamaño de la fuente */
+        color: #662f8d; /* Color del texto */
+        font-size: 14px;
+    }
+
+    .boton_login{
+        width: 182px;
+        height: 51px;
+        font-size: 16px;
+
+        order: 3;
+    }
 }
 

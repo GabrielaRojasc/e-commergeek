@@ -23,7 +23,7 @@
             <a href="#"><button>Menú Administrador</button></a>
         </div>
         <nav class="head__navegation">
-            <form action="/buscar" method="GET" class="head__search">
+            <form action="/buscar" class="head__search">
                 <input type="text" name="search" placeholder="¿Qué deseas buscar?" size="15" maxlength="10">
                 <button type="submit" class="search-button"></button>
             </form>
@@ -32,13 +32,13 @@
     <main>
         <section class="added container">
             <h2 class="added__title">Agregar producto nuevo</h2>
-            <form id="form" action="#" class="added__form" method="post">
-                <input type="text" id="url" placeholder="URL de la imagen" required>
-                <input type="text" id="categoria" placeholder="Categoria">
-                <input type="text" id="nombre_producto" placeholder="Nombre del producto">
-                <input type="text"id="precio" placeholder="Precio del producto">
-                <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción del producto"></textarea>
-                <input type="submit" class="btn-added" value="Agregar producto"> 
+            <form id="form" action="#" class="added__form" data-form>
+                <input type="text" placeholder="URL de la imagen" required data-url/>
+                <input type="text" placeholder="Categoria" data-category/>
+                <input type="text"  placeholder="Nombre del producto" data-name/>
+                <input type="text"placeholder="Precio del producto" data-price/>
+                <textarea name="description" cols="30" rows="10" placeholder="Descripción del producto" data-description></textarea>
+                <input type="submit" class="btn-added" value="Agregar producto"/> 
             </form>
         </section>
         <section class="contact container">
@@ -73,5 +73,7 @@
             </div>
         </footer>
     </main>
+    <script src="/controllers/createProductController.js"></script>
+    <script src="/services/productServices.js"></script>
 </body>
 </html>

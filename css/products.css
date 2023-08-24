@@ -35,8 +35,7 @@
     width: auto; 
     height: auto;
     object-fit: contain; /* Ajusta la imagen manteniendo la proporción y sin recortar */
-    margin-right: auto;
-    margin-left: auto;
+   
 }
 
 
@@ -50,4 +49,18 @@
 .product__price{
     margin-top: .5rem;
     margin-bottom: .5rem;
+}
+
+.ver__producto{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 810px)  {
+    .products{
+       flex-direction: column;
+       padding: 64px 64px;
+    }
+
+    
 }

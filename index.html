@@ -35,208 +35,36 @@
         <!--Banner-->
         <section id="inicio" class="banner container">
             <div class="banner__imagen"></div>
-            <h1 class="banner__tittle">Agosto Promocional</h1>
-            <p class="banner__description">Productos seleccionados con el 33% de descuento</p>
-            <button class="boton__banner">Ver consolas</button>
+            <div class="banner__contenido">
+                <h1 class="banner__tittle">Agosto Promocional</h1>
+                <p class="banner__description">Productos seleccionados con el 33% de descuento</p>
+                <button class="boton__banner">Ver consolas</button>
+            </div>
         </section>
         <!--Products-->
-        <section class="products container">
+        <section class="products container" data-product>
             <div class="product__section">
-                <!--starwars-->
-                <h2 class="products__title">Star Wars</h2>
+                <h2 class="products__title">Productos</h2>
                 <a href="#">
                     <button class="boton__producto"> Ver todo </button>
                 </a>
             </div>
             <div class="product__contenedor">
                 <div class="product__item">
-                    <img src="img/img-starwars.png" alt="Producto XYZ" class="product__image" loading="lazy">
-
+                    <img src="https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+                        alt="Producto XYZ" class="product__image" loading="lazy">
                     <h3 class="product__name">Producto XYZ</h3>
                     <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-starwars-a.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-starwars-b.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-starwars-c.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-starwars-d.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-                    <div class="product__description">
-                        <h3 class="product__name">Producto XYZ</h3>
-                        <p class="product__price">$60.00</p>
-                        <a href="#">
-                            <button class="boton__producto"> Ver todo </button>
-                        </a>
-                    </div>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-starwars-e.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
+                    <a class="ver__producto" href="./product.html?id={id}" target="_blank">
+                    Ve producto</a>
                 </div>
             </div>
-            <!--consolas-->
-            <div class="product__section">
-                <h2 class="products__title">Consolas</h2>
-                <a href="#">
-                    <button class="boton__producto"> Ver todo </button>
-                </a>
-            </div>
-            <div class="product__contenedor">
-                <div class="product__item">
-                    <img src="img/img-consola-a.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-consola-b.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-consola-c.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-consola-d.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-consola-e.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-                    <div class="product__description">
-                        <h3 class="product__name">Producto XYZ</h3>
-                        <p class="product__price">$60.00</p>
-                        <a href="#">
-                            <button class="boton__producto"> Ver todo </button>
-                        </a>
-                    </div>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-consola-f.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-            </div>
-            <!--diversos-->
-            <div class="product__section">
-                <h2 class="products__title">Diversos</h2>
-                <a href="#">
-                    <button class="boton__producto"> Ver todo </button>
-                </a>
-            </div>
-            <div class="product__contenedor">
-                <div class="product__item">
-                    <img src="img/img-diversos-a.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-diversos-b.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-diversos-c.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-diversos-d.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-diversos-e.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-                    <div class="product__description">
-                        <h3 class="product__name">Producto XYZ</h3>
-                        <p class="product__price">$60.00</p>
-                        <a href="#">
-                            <button class="boton__producto"> Ver todo </button>
-                        </a>
-                    </div>
-                </div>
-                <div class="product__item">
-                    <img src="img/img-diversos-f.jpg" alt="Producto XYZ" class="product__image" loading="lazy">
-                    <h3 class="product__name">Producto XYZ</h3>
-                    <p class="product__price">$60.00</p>
-                    <a href="#">
-                        <button class="boton__producto"> Ver todo </button>
-                    </a>
-                </div>
-            </div>
-
         </section>
         <!--contact-->
         <section class="contact container">
             <img src="img/Logo.png" alt="Logo" class="contact__logo">
             <nav>
-                <ul class="contact__navegation">
+                <ul  class="contact__navegation">
                     <li class="contact__enlace"><a href="#inicio">Quiénes somos</a></li>
                     <li class="contact__enlace"><a href="#inicio">Política de privacidad</a></li>
                     <li class="contact__enlace"><a href="#inicio">Programa de fidelidad</a></li>
@@ -266,6 +94,8 @@
         </footer>
 
     </main>
+    <script src="/services/productServices.js"></script>
+    <script src="/controllers/productController.js"></script>
 </body>
 
 </html>

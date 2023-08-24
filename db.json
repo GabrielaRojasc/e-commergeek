@@ -1,0 +1,20 @@
+{
+    "producto": [
+        {
+            "name": "Alura",
+            "imageUrl" : "https://images.unsplash.com/photo-1595139280770-95b6de5f0635?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=771&q=80",
+            "price" : 500,
+            "category": "muniecos",
+            "description" : "Producto de un munieco",
+            "id" : 1
+        },
+        {
+            "name": "Google",
+            "imageUrl" : "https://images.unsplash.com/photo-1577356936723-f600167ae456?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+            "price" : 100,
+            "category": "muniecos",
+            "description" : "Producto de un munieco",
+            "id" : 2
+        }
+    ]
+}
