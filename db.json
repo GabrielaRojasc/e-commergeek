@@ -1,8 +1,8 @@
 {
     "producto": [
       {
-        "name": "Alura Latam",
-        "imageUrl": "https://avatars.githubusercontent.com/u/4975968?s=280&v=4",
+        "name": "Pikachu",
+        "imageUrl": "https://images.pexels.com/photos/12900904/pexels-photo-12900904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "price": "165846.9",
         "id": 1,
         "alt": "Product",
@@ -10,15 +10,15 @@
         "description": ""
       },
       {
-        "name": "One",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlpa9JUDglJ_p5ecd3wZYJ6oNVkH-5dA-lS9zUZ0wyMvheUBgXnbKWhw44XtV1eYDUQjo&usqp=CAU",
+        "name": "Rubik",
+        "imageUrl": "https://images.pexels.com/photos/19677/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "price": "100.00",
         "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
         "id": 4
       },
       {
-        "name": "Alura latam",
-        "imageUrl": "https://avatars.githubusercontent.com/u/4975968?s=280&v=4",
+        "name": "Funko Pop",
+        "imageUrl": "https://images.pexels.com/photos/7501395/pexels-photo-7501395.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "price": "5",
         "id": 6,
         "description": "jola"
@@ -50,8 +50,8 @@
         "id": 15
       },
       {
-        "name": "Flash",
-        "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+        "name": "Coky",
+        "imageUrl": "https://images.pexels.com/photos/63637/crocodile-sitting-alligator-animal-63637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "price": "25,99",
         "id": 16,
         "description": "25"
@@ -87,8 +87,8 @@
         "id": 21
       },
       {
-        "name": "Flash",
-        "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+        "name": "Super mario",
+        "imageUrl": "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "price": "85",
         "id": 22
       },
