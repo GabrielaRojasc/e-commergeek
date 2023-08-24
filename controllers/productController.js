@@ -7,7 +7,7 @@ const newProduct = (name, imageUrl, price, id) => {
             <img class=product__image src="${imageUrl}">
             <h3 class="product__name">${name}</h3>
             <p class="product__price">${price}~</p>
-            <a class="ver__producto" href="#" target="_blank">
+            <a class="ver__producto" href="" target="_blank">
             Ve producto</a>
         </div>
     </div>`;

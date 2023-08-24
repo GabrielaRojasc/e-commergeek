@@ -11,15 +11,15 @@ const listProduct = () => {
 
 //POST
 
-const createProduct = (name, imageUrl, price) => {
+const createProduct = (imageUrl, name,  price) => {
    return fetch("http://localhost:3000/producto",{
         method: "POST",
         headers: {
             "Content-type": "application/json"
         }, 
         body: JSON.stringify({
-                name,
-                imageUrl,    
+                imageUrl, 
+                name,  
                 price
             }),   
     }).then((respuesta) => {
