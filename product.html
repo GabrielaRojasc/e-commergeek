@@ -5,8 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bases.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/view__products.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
+    <header class="head container">
+        <div>
+            <a href="index.html"><img src="img/Logo.png" alt="Logo de alurageek" class="head__logo"></a>
+        </div>
+        <nav class="head__navegation">
+            <form action="/buscar" class="head__search">
+                <input type="text" name="search" placeholder="¿Qué deseas buscar?" size="15" maxlength="10">
+                <button type="submit" class="search-button"></button>
+            </form>
+        </nav>
+    </header>
+    <main>
+    <section class="view__products container">
+            <h2 class="products__title">Todos los productos</h2>
+
+
+
+    </section>
+    <section class="contact container">
+        <img src="img/Logo.png" alt="Logo" class="contact__logo">
+        <nav>
+            <ul class="contact__navegation">
+                <li class="contact__enlace"><a href="#inicio">Quiénes somos</a></li>
+                <li class="contact__enlace"><a href="#inicio">Política de privacidad</a></li>
+                <li class="contact__enlace"><a href="#inicio">Programa de fidelidad</a></li>
+                <li class="contact__enlace"><a href="#inicio">Nuestras tiendas</a></li>
+                <li class="contact__enlace"><a href="#inicio">Quiero se franquiciado</a></li>
+                <li class="contact__enlace"><a href="#inicio">Anúncie aquí</a></li>
+            </ul>
+        </nav>
+        <form action="#">
+            <h3 class="title__form">Hable con nosotros</h3>
+            <input type="text" class="contact__nombre" placeholder="Nombre completo">
+            <textarea class="contact__mensaje" name="" id="" cols="60" rows="3"
+                placeholder="Escribe tu mensaje"></textarea>
+            <input type="submit" value="Enviar mensaje" class="contact__boton">
+        </form>
+    </section>
+    <footer class="footer container">
+        <p class="footer__text">
+            Desarrollado por Gabriela Rojas
+            <br> 2023
+        </p>
+        <div class="footer__icon-top">
+            <a href="#">
+                <i class="bx bx-up-arrow-alt"></i>
+            </a>
+        </div>
+    </footer>
     
 </body>
 </html>

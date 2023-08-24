@@ -1,0 +1,10 @@
+
+.view__products{
+    display: flex;
+    padding-bottom: 600px;
+}
+
+.products__title{
+    padding-top: 2rem;
+    width: 100%;
+}
