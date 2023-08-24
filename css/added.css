@@ -43,3 +43,21 @@ textarea {
 .btn-added:hover {
     background-color: #6313b9;
   }
+
+@media screen and (min-width:810px) {
+
+    .btn-added{
+        width: 50%;
+        height: 20%
+    }
+    .added__form{
+       width: 50%;
+    }
+    .added__contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

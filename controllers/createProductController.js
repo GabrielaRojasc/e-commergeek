@@ -8,10 +8,8 @@ form.addEventListener("submit", (evento) => {
     const url = document.querySelector('[data-url]').value
     const name = document.querySelector('[data-name]').value
     const price = document.querySelector('[data-price]').value
-    const category = document.querySelector('[data-category]').value
-    const description = document.querySelector('[data-description]').value
-
-    productServices.createProduct(url,name,price,category,description)
+ 
+    productServices.createProduct(url,name,price)
     .then(respuesta => {
         window.location.href = "../index.html"
         console.log(respuesta)
