@@ -80,12 +80,12 @@
 
 .mostrar-mas {
     font-weight: bold;
-    color: blueviolet;
     display: flex;
     align-items: center;
 }
 
 .div-verTodo {
+    color: blueviolet;
     display: flex;
     gap: 0.5rem;
     align-items: center;
