@@ -64,6 +64,10 @@
     order: 3;
 }
 
+button{
+    cursor: pointer;
+}
+
 .boton_login a {
     text-decoration: none;
 }
@@ -121,7 +125,6 @@
         width: 182px;
         height: 51px;
         font-size: 16px;
-
         order: 3;
     }
 }
