@@ -3,7 +3,7 @@
 //GET
 
 const listProduct = () => {
-    return fetch("http://localhost:3000/producto")
+    return fetch("https://fake-api-kappa.vercel.app/producto")
         .then((respuesta) => respuesta.json())
         .catch((error) => console.log(error));
         
@@ -12,7 +12,7 @@ const listProduct = () => {
 //POST
 
 const createProduct = (imageUrl, name,  price) => {
-   return fetch("http://localhost:3000/producto",{
+   return fetch("https://fake-api-kappa.vercel.app/producto",{
         method: "POST",
         headers: {
             "Content-type": "application/json"
